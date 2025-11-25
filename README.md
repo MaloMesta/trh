@@ -5,11 +5,7 @@
 - bot.py             — минимальный Telegram bot (aiogram) с командами проверки и закрытия дат
 - config.py          — конфиг (токены, IDs) — **заполни своими значениями**
 - google_sync.py     — функции чтения/записи Google Sheets (gspread)
-- calendar_sync.py   — простая функция для чтения iCal (icalendar/ics)
-- business_logic.py  — логика: проверка доступности, запись брони
-- models.py          — простые модели (в памяти) и helper для сохранения в CSV/Google
 - requirements.txt   — pip зависимости
-- sample_google_sheet.csv — пример структуры Google Sheet (можно импортировать)
 
 Быстрый старт (локально):
 1. Установи зависимости: `pip install -r requirements.txt`
